@@ -1,5 +1,5 @@
 # RAG(Retrieval-Augmented Generation)
-![RAG](images/Naive_RAG_Diagram.png)
+![RAG](images/Naive_RAG_Diagram.png){width=400px}
 
 # Document-Based Question Answering with Ollama & ChromaDB
 ## Overview
