@@ -1,6 +1,7 @@
 # RAG(Retrieval-Augmented Generation)
-
-
+![RAG](images/Naive_RAG_Diagram.png)
+![Advance RAG](advanced_RAG_Diagram.png)
+![Advance RAG](advanced_RAG_Diagram2.png)
 # Document-Based Question Answering with Ollama & ChromaDB
 ## Overview
 This project enables you to ask questions and get precise answers based on your own document files. It works by:
