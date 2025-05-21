@@ -1,10 +1,6 @@
 # RAG(Retrieval-Augmented Generation)
 ![RAG](images/Naive_RAG_Diagram.png)
 
-# Advance RAG
-![Advanced RAG](images/advanced_RAG_Diagram.png)
-
-![Advance RAG](images/advanced_RAG_Diagram2.png)
 # Document-Based Question Answering with Ollama & ChromaDB
 ## Overview
 This project enables you to ask questions and get precise answers based on your own document files. It works by:
@@ -27,6 +23,10 @@ Make sure these models are pulled and available locally in your Ollama environme
 - Instead of just using the original question to search the database, we first ask the language model (LLM) to give an initial answer. Then, we combine the original question and this first answer to search the database again. This helps us find better and more relevant information, which the LLM uses to give a more accurate final answer.
 
 - We also ask the LLM to create multiple new versions of the original question. These new questions cover different ways to ask or understand the same thing. We use all these new questions to search the database, which helps us find more useful pieces of information. We gather all these pieces and give them to the LLM so it can create a richer and more complete answer.
+# Advance RAG
+![Advanced RAG](images/advanced_RAG_Diagram.png)
+
+![Advance RAG](images/advanced_RAG_Diagram2.png)
 
 ## Ranking
 - After collecting many pieces of information from the database, we don’t just send them all to the LLM. Instead, we rank them based on how relevant they are to the original question. We pick the best ones and only send those to the LLM. This way, the answer is based on the most important and useful information, making it clearer and more accurate.
